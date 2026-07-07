@@ -276,7 +276,7 @@ top_pos = Inches(0.85)
 
 # ---------------- Job Gauge ----------------
 job_pic = slide.shapes.add_picture(
-    "job gauge.png",
+    "job_gauge.png",
     left=start_x,
     top=top_pos,
     width=gauge_width,
@@ -287,7 +287,7 @@ job_pic.line.width = Pt(1)
 
 # ---------------- Cycle Gauge ----------------
 cycle_pic = slide.shapes.add_picture(
-    "cycle gauge.png",
+    "cycle_gauge.png",
     left=start_x + gauge_width + gap,
     top=top_pos,
     width=gauge_width,
